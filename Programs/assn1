@@ -1,0 +1,46 @@
+#/bin/bash
+
+FILE=".KS_Dir"
+DIRSTART="$PWD"
+MEASUREMENT=""
+
+if [[ $1 == "-f" ]]; then
+	FILE="$2"
+	if [[ -d $3 ]]; then
+		DIRSTART="$3"
+		MEASUREMENT="$4"
+	else
+		MEASUREMENT="$3"	
+	fi
+elif [[ $1 != "-f" ]]; then
+	if [[ -d $1 ]]; then
+      DIRSTART="$1"
+      MEASUREMENT="$2"
+   else
+      MEASUREMENT="$1"
+   fi
+else
+	echo "ERROR: can not resolve arguments."
+	echo "The available options are [-f fileName] [startDirectory] followed by a Measurement Type."
+fi
+
+echo 'FILE = '$FILE
+echo 'DISTART = '$DIRSTART
+echo 'MEASUREMENT = '$MEASUREMENT
+
+TOTAL=0
+pulldata(){
+	echo 'pulling from' $1
+	cd $1
+	for i in *; do
+		echo 'checking' $i
+		if [[ -d $i ]]; then
+			pulldata $i
+		elif [[ $i == $FILE ]]; then
+			grep $MEASUREMENT $i
+		fi
+	done
+	}
+
+cd $DIRSTART
+pulldata $PWD
