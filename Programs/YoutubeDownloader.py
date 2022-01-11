@@ -9,7 +9,7 @@ link = input(": ")
 
 video = YouTube(link)
 print(video.title())
-#stream = video.streams.get_highest_resolution()
+stream = video.streams.get_highest_resolution()
 
-#stream.download("/Users/"+userName+"/Downloads")
-#print("Saved " + stream.title)
+stream.download("/Users/"+userName+"/Downloads")
+print("Saved " + stream.title)
