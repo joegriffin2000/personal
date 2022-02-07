@@ -1,0 +1,14 @@
+1. Done
+2. The result was "line two"
+3. The result was "Line three"
+4. I see an ordered list consisting of all of the files in this directory. 
+5. I gave only reading permissions to the file. The only exception to this is the owner of this file who gets write permissions.
+6. The permissions I gave the file are reading, writing and executing for the owner of the file, executing and reading for the group, and only excecuting for everyone else.
+7. yes, I am able to read the file "funny"
+8. yes, I am able to read the file "hello.bash"
+9. No, it said my permission was denied. 
+10. I can set the permissions to include the ability for me to execute or I can copy the file under a new name and make those permissions include execution for the owner.
+11. it set the file to only be able to be read by the owner of the file.
+12. The first one shopws everything currently in the directory. The second one only shows files who's starting character is "a". The third one only shows files who have an "m" character surrounded by other characters of any type. The fourth one only shows the files who start with "anno" with a single trailing character. The last one throws an error that says there is no file or directory with the name "annoy?"
+13. it made w files to edit at one time named "a" and "space"
+14. -h is meant to be used with -l or -s and its to make lists more readable, -l uses a long listing format, -t sets the list to sort by modification time (aka the last time the file was modified), -a makes it so the list does not ignore files that start with a ".", and finally -d is meant to show the contents of the directories rather than just the directories when they are listed out. 

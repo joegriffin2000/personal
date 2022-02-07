@@ -1,0 +1,12 @@
+#! /bin/bash
+
+if [[ "$1" = "-?" ]] || [[ "$1" = "" ]] 
+then
+        echo '<----------------------->'
+	echo 'This is a quick script for running the CSV File Handling Application. Try running the script again but this time input a file name behind it. Also, make sure that the file you wish to interact with is in this folder or else the program will not function!'
+	echo ''
+
+else		
+	python3 srcecode.py "$1"
+
+fi
