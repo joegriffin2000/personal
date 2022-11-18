@@ -1,0 +1,69 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"Revolver",
+            "imagefile":"Revolver.png"
+            },
+            {
+            "name":"Ambassador",
+            "imagefile":"Ambassador.png"
+            },
+            {
+            "name":"L'Etranger",
+            "imagefile":"L'Etranger.png"
+            },
+            {
+            "name":"Enforcer",
+            "imagefile":"Enforcer.png"
+            },
+            {
+            "name":"Diamondback",
+            "imagefile":"Diamondback.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"Invis Watch",
+            "imagefile":"Invisibility_Watch.png"
+            },
+            {
+            "name":"Cloak and Dagger",
+            "imagefile":"Cloak_and_Dagger.png"
+            },
+            {
+            "name":"Dead Ringer",
+            "imagefile":"Dead_Ringer.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Knife",
+            "imagefile":"Knife.png"
+            },
+            {
+            "name":"Your Eternal Reward",
+            "imagefile":"Your_Eternal_Reward.png"
+            },
+            {
+            "name":"Conniver's Kunai",
+            "imagefile":"Conniver's_Kunai.png"
+            },
+            {
+            "name":"Big Earner",
+            "imagefile":"Big_Earner.png"
+            },
+            {
+            "name":"Spy-cicle",
+            "imagefile":"Spy-cicle.png"
+            }
+        ]
+    }
+]

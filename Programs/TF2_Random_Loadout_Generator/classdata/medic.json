@@ -1,0 +1,69 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"Syringe Gun",
+            "imagefile":"Syringe_Gun.png"
+            },
+            {
+            "name":"Blutsauger",
+            "imagefile":"Blutsauger.png"
+            },
+            {
+            "name":"Crusader's Crossbow",
+            "imagefile":"Crusader's_Crossbow.png"
+            },
+            {
+            "name":"Overdose",
+            "imagefile":"Overdose.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"Medi Gun",
+            "imagefile":"Medi_Gun.png"
+            },
+            {
+            "name":"Kritzkrieg",
+            "imagefile":"Kritzkrieg.png"
+            },
+            {
+            "name":"Quick-Fix",
+            "imagefile":"Quick-Fix.png"
+            },
+            {
+            "name":"Vaccinator",
+            "imagefile":"Vaccinator.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Bonesaw",
+            "imagefile":"Bonesaw.png"
+            },
+            {
+            "name":"Übersaw",
+            "imagefile":"Ubersaw.png"
+            },
+            {
+            "name":"Vita-Saw",
+            "imagefile":"Vita-Saw.png"
+            },
+            {
+            "name":"Amputator",
+            "imagefile":"Amputator.png"
+            },
+            {
+            "name":"Solemn Vow",
+            "imagefile":"Solemn_Vow.png"
+            }
+        ]
+    }
+]

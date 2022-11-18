@@ -1,0 +1,27 @@
+/* Implemented by DynaJoe
+
+*/
+
+/*General Page Standards*/
+#page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a7b8c4;
+}
+
+#pageTitle {
+    padding:10px;
+    color:#30a2f2;
+    background-color:#ffffff;
+    outline-color: #30a2f2;
+    outline-style: solid
+}
+
+.pageTitle :hover{
+    background-color:#abdcff;
+}
+
+textarea{
+    background-color:#ffffff;
+    outline-color: #30a2f2;
+    outline-style: solid;
+}

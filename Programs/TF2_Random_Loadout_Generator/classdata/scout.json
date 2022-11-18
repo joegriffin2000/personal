@@ -1,0 +1,101 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"ScatterGun",
+            "imagefile":"Scattergun.png"
+            },
+            {
+            "name":"Force-A-Nature",
+            "imagefile":"Force-A-Nature.png"
+            },
+            {
+            "name":"Shortstop",
+            "imagefile":"Shortstop.png"
+            },
+            {
+            "name":"Soda Popper",
+            "imagefile":"Soda_Popper.png"
+            },
+            {
+            "name":"Baby Face's Blaster",
+            "imagefile":"Baby_Face's_Blaster.png"
+            },
+            {
+            "name":"Back Scatter",
+            "imagefile":"Back_Scatter.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"Pistol",
+            "imagefile":"Pistol.png"
+            },
+            {
+            "name":"Bonk! Atomic Punch",
+            "imagefile":"Bonk!_Atomic_Punch.png"
+            },
+            {
+            "name":"Crit-a-Cola",
+            "imagefile":"Crit-a-Cola.png"
+            },
+            {
+            "name":"Mad Milk",
+            "imagefile":"Mad_Milk.png"
+            },
+            {
+            "name":"Winger",
+            "imagefile":"Winger.png"
+            },
+            {
+            "name":"Pretty Boy's Pocket Pistol",
+            "imagefile":"Pretty_Boy's_Pocket_Pistol.png"
+            },
+            {
+            "name":"Flying Guillotine",
+            "imagefile":"Flying_Guillotine.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Bat",
+            "imagefile":"Bat.png"
+            },
+            {
+            "name":"Sandman",
+            "imagefile":"Sandman.png"
+            },
+            {
+            "name":"Candy Cane",
+            "imagefile":"Candy_Cane.png"
+            },
+            {
+            "name":"Boston Basher",
+            "imagefile":"Boston_Basher.png"
+            },
+            {
+            "name":"Sun-on-a-Stick",
+            "imagefile":"Sun-on-a-Stick.png"
+            },
+            {
+            "name":"Fan O'War",
+            "imagefile":"Fan_O'War.png"
+            },
+            {
+            "name":"Atomizer",
+            "imagefile":"Atomizer.png"
+            },
+            {
+            "name":"Wrap Assassin",
+            "imagefile":"Wrap_Assassin.png"
+            }
+        ]
+    }
+]

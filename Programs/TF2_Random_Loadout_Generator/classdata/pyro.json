@@ -1,0 +1,109 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"Flame Thrower",
+            "imagefile":"Flame_Thrower.png"
+            },
+            {
+            "name":"Backburner",
+            "imagefile":"Backburner.png"
+            },
+            {
+            "name":"Degreaser",
+            "imagefile":"Degreaser.png"
+            },
+            {
+            "name":"Phlogistinator",
+            "imagefile":"Phlogistinator.png"
+            },
+            {
+            "name":"Dragon's Fury",
+            "imagefile":"Dragon's_Fury.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"Shotgun",
+            "imagefile":"Shotgun.png"
+            },
+            {
+            "name":"Flare Gun",
+            "imagefile":"Flare_Gun.png"
+            },
+            {
+            "name":"Detonator",
+            "imagefile":"Detonator.png"
+            },
+            {
+            "name":"Reserve Shooter",
+            "imagefile":"Reserve_Shooter.png"
+            },
+            {
+            "name":"Manmelter",
+            "imagefile":"Manmelter.png"
+            },
+            {
+            "name":"Scorch Shot",
+            "imagefile":"Scorch_Shot.png"
+            },
+            {
+            "name":"Panic Attack",
+            "imagefile":"Panic_Attack.png"
+            },
+            {
+            "name":"Thermal Thruster",
+            "imagefile":"Thermal_Thruster.png"
+            },
+            {
+            "name":"Gas Passer",
+            "imagefile":"Gas_Passer.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Fire Axe",
+            "imagefile":"Fire_Axe.png"
+            },
+            {
+            "name":"Axtinguisher",
+            "imagefile":"Axtinguisher.png"
+            },
+            {
+            "name":"Homewrecker",
+            "imagefile":"Homewrecker.png"
+            },
+            {
+            "name":"Powerjack",
+            "imagefile":"Powerjack.png"
+            },
+            {
+            "name":"Back Scratcher",
+            "imagefile":"Back_Scratcher.png"
+            },
+            {
+            "name":"Sharpened Volcano Fragment",
+            "imagefile":"Sharpened_Volcano_Fragment.png"
+            },
+            {
+            "name":"Third Degree",
+            "imagefile":"Third_Degree.png"
+            },
+            {
+            "name":"Neon Annihilator",
+            "imagefile":"Neon_Annihilator.png"
+            },
+            {
+            "name":"Hot Hand",
+            "imagefile":"Hot_Hand.png"
+            }
+        ]
+    }
+]

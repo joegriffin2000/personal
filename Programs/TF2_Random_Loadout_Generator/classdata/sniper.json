@@ -1,0 +1,85 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"Sniper Rifle",
+            "imagefile":"Sniper_Rifle.png"
+            },
+            {
+            "name":"Huntsman",
+            "imagefile":"Huntsman.png"
+            },
+            {
+            "name":"Sydney Sleeper",
+            "imagefile":"Sydney_Sleeper.png"
+            },
+            {
+            "name":"Bazaar Bargain",
+            "imagefile":"Bazaar_Bargain.png"
+            },
+            {
+            "name":"Machina",
+            "imagefile":"Machina.png"
+            },
+            {
+            "name":"Hitman's Heatmaker",
+            "imagefile":"Hitman's_Heatmaker.png"
+            },
+            {
+            "name":"Classic",
+            "imagefile":"Classic.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"SMG",
+            "imagefile":"SMG.png"
+            },
+            {
+            "name":"Jarate",
+            "imagefile":"Jarate.png"
+            },
+            {
+            "name":"Razorback",
+            "imagefile":"Razorback.png"
+            },
+            {
+            "name":"Darwin's Danger Shield",
+            "imagefile":"Darwin's_Danger_Shield.png"
+            },
+            {
+            "name":"Cozy Camper",
+            "imagefile":"Cozy_Camper.png"
+            },
+            {
+            "name":"Cleaner's Carbine",
+            "imagefile":"Cleaner's_Carbine.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Kukri",
+            "imagefile":"Kukri.png"
+            },
+            {
+            "name":"Tribalman's Shiv",
+            "imagefile":"Tribalman's_Shiv.png"
+            },
+            {
+            "name":"Bushwacka",
+            "imagefile":"Bushwacka.png"
+            },
+            {
+            "name":"Shahanshah",
+            "imagefile":"Shahanshah.png"
+            }
+        ]
+    }
+]

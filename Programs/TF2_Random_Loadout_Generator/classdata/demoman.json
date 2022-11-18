@@ -1,0 +1,101 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"Grenade Launcher",
+            "imagefile":"Grenade_Launcher.png"
+            },
+            {
+            "name":"Loch-n-Load",
+            "imagefile":"Loch-n-Load.png"
+            },
+            {
+            "name":"Bootlegger",
+            "imagefile":"Bootlegger.png"
+            },
+            {
+            "name":"Loose Cannon",
+            "imagefile":"Loose_Cannon.png"
+            },
+            {
+            "name":"B.A.S.E. Jumper",
+            "imagefile":"Bootlegger.png"
+            },
+            {
+            "name":"Iron Bomber",
+            "imagefile":"Iron_Bomber.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"Stickybomb Launcher",
+            "imagefile":"Stickybomb_Launcher.png"
+            },
+            {
+            "name":"Chargin' Targe",
+            "imagefile":"Chargin'_Targe.png"
+            },
+            {
+            "name":"Scottish Resistance",
+            "imagefile":"Scottish_Resistance.png"
+            },
+            {
+            "name":"Sticky Jumper",
+            "imagefile":"Sticky_Jumper.png"
+            },
+            {
+            "name":"Splendid Screen",
+            "imagefile":"Splendid_Screen.png"
+            },
+            {
+            "name":"Tide Turner",
+            "imagefile":"Tide_Turner.png"
+            },
+            {
+            "name":"Quickiebomb Launcher",
+            "imagefile":"Quickiebomb_Launcher.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Bottle",
+            "imagefile":"Bottle.png"
+            },
+            {
+            "name":"Eyelander",
+            "imagefile":"Eyelander.png"
+            },
+            {
+            "name":"Pain Train",
+            "imagefile":"Pain_Train.png"
+            },
+            {
+            "name":"Scotsman's Skullcutter",
+            "imagefile":"Scotsman's_Skullcutter.png"
+            },
+            {
+            "name":"Claidheamh Mor",
+            "imagefile":"Claidheamh_Mor.png"
+            },
+            {
+            "name":"Ullapool Caber",
+            "imagefile":"Ullapool_Caber.png"
+            },
+            {
+            "name":"Half-Zatoichi",
+            "imagefile":"Half-Zatoichi.png"
+            },
+            {
+            "name":"Persian Persuader",
+            "imagefile":"Persian_Persuader.png"
+            }
+        ]
+    }
+]

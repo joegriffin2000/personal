@@ -1,0 +1,26 @@
+[
+    {
+        "name": "SomethingStronger",
+        "id": "001",
+        "stats": [
+            {
+                "hitdamage": 2.0
+            },
+            {
+                "firespeed": 0.5
+            }
+        ]
+    },
+    {
+        "name": "SomethingFaster",
+        "id": "002",
+        "stats": [
+            {
+                "hitdamage": 0.5
+            },
+            {
+                "firespeed": 2.0
+            }
+        ]
+    }
+]

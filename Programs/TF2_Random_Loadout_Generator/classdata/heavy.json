@@ -1,0 +1,93 @@
+[
+    {
+        "slot": "primary",
+        "weapons": [
+            {
+            "name":"Minigun",
+            "imagefile":"Minigun.png"
+            },
+            {
+            "name":"Natascha",
+            "imagefile":"Natascha.png"
+            },
+            {
+            "name":"Brass Beast",
+            "imagefile":"Brass_Beast.png"
+            },
+            {
+            "name":"Tomislav",
+            "imagefile":"Tomislav.png"
+            },
+            {
+            "name":"Huo-Long Heater",
+            "imagefile":"Huo-Long_Heater.png"
+            }
+        ]
+    },
+    {
+        "slot": "secondary",
+        "weapons": [
+            {
+            "name":"Shotgun",
+            "imagefile":"Shotgun.png"
+            },
+            {
+            "name":"Sandvich",
+            "imagefile":"Sandvich.png"
+            },
+            {
+            "name":"Dalokohs Bar",
+            "imagefile":"Dalokohs_Bar.png"
+            },
+            {
+            "name":"Family Business",
+            "imagefile":"Family_Business.png"
+            },
+            {
+            "name":"Buffalo Steak Sandvich",
+            "imagefile":"Buffalo_Steak_Sandvich.png"
+            },
+            {
+            "name":"Second Banana",
+            "imagefile":"Second_Banana.png"
+            },
+            {
+            "name":"Panic Attack",
+            "imagefile":"Panic_Attack.png"
+            }
+        ]
+    },
+    {
+        "slot": "tertiary",
+        "weapons": [
+            {
+            "name":"Fists",
+            "imagefile":"Fists.png"
+            },
+            {
+            "name":"Killing Gloves of Boxing",
+            "imagefile":"Killing_Gloves_of_Boxing.png"
+            },
+            {
+            "name":"Gloves of Running Urgently",
+            "imagefile":"Gloves_of_Running_Urgently.png"
+            },
+            {
+            "name":"Warrior's Spirit",
+            "imagefile":"Warrior's_Spirit.png"
+            },
+            {
+            "name":"Fists of Steel",
+            "imagefile":"Fists_of_Steel.png"
+            },
+            {
+            "name":"Eviction Notice",
+            "imagefile":"Eviction_Notice.png"
+            },
+            {
+            "name":"Holiday Punch",
+            "imagefile":"Holiday_Punch.png"
+            }
+        ]
+    }
+]
