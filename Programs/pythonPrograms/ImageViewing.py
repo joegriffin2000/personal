@@ -1,7 +1,7 @@
 # ______________________________________________________
 # ImageViewing
-# By Dynam0_ 
-#
+# By DynaJ03
+# 
 
 import os
 import sys
