@@ -1,7 +1,6 @@
-#This is a comment 
-#
-#
-#
+# IpAddressFinder.py
+# by Joe Griffin
+# found some code online and copied it into my own file
 
 import socket 
 hostname = socket.gethostname()
