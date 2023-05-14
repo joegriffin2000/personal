@@ -1,4 +1,4 @@
-#jeoinc
+#jeg
 class nat():
     def __init__(self,n):
         if self.__isValidFromInt(n):
@@ -9,4 +9,5 @@ class nat():
     def __isValidFromInt(self,num):
         result = True
         if num < 0:
+            pass
         return result
