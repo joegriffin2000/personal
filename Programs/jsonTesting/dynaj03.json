@@ -1,0 +1,246 @@
+{
+    "classes": [
+        "demoman",
+        "engineer",
+        "heavy",
+        "medic",
+        "pyro",
+        "scout",
+        "sniper",
+        "soldier",
+        "spy"
+    ],
+    "loadouts": [
+        {
+            "class": "demoman",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Grenade Launcher"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Stickybomb Launcher"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Bottle"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "engineer",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Shotgun"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Pistol"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Wrench"
+                    }
+                },
+                {
+                    "slot": "pda1",
+                    "item": {
+                        "name": "Building PDA"
+                    }
+                },
+                {
+                    "slot": "pda2",
+                    "item": {
+                        "name": "Destroying PDA"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "heavy",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Minigun"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Shotgun"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Fists"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "medic",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Syringe Gun"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Medigun"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Bonesaw"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "pyro",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Flame Thrower"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Shotgun"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Fire Axe"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "scout",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Scattergun"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Pistol"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Bat"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "sniper",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Sniper Rifle"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "SMG"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Kukri"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "soldier",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Rocket Launcher"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Shotgun"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Shovel"
+                    }
+                }
+            ]
+        },
+        {
+            "class": "spy",
+            "loadout" : [
+                {
+                    "slot": "primary",
+                    "item": {
+                        "name": "Revolver"
+                    }
+                },
+                {
+                    "slot": "secondary",
+                    "item": {
+                        "name": "Sapper"
+                    }
+                },
+                {
+                    "slot": "tertiary",
+                    "item": {
+                        "name": "Knife"
+                    }
+                },
+                {
+                    "slot": "pda1",
+                    "item": {
+                        "name": "Disguise Kit"
+                    }
+                },
+                {
+                    "slot": "pda2",
+                    "item": {
+                        "name": "Invis Watch"
+                    }
+                }
+            ]
+        }
+    ]
+}
