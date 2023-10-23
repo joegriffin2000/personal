@@ -19,9 +19,9 @@ def inputMenu():
     elif directory.lower() == "r" or directory.lower() == "return":
         print("Returning...")
         return "retry"
-    elif directory[len(directory)-1] != '/': #Adds a slash to the end to make sure we are working in a directory no matter what the user puts in
-        directory += '/'
-    
+    elif directory[len(directory)-1] != '\\': #Adds a slash to the end to make sure we are working in a directory no matter what the user puts in
+        directory += '\\'
+        
     try:
         setDir(directory)
     except:
