@@ -2321,7 +2321,6 @@ amble
 fries
 loons
 tsars
-datum
 musky
 pigmy
 gnome
@@ -2330,18 +2329,10 @@ ovule
 icily
 liken
 lemur
-frays
-silts
-sifts
-plods
 ramps
-tress
 dudes
 waive
 karat
-jolts
-peons
-horny
 pales
 wreak
 lynch
