@@ -450,7 +450,6 @@ royal
 kings
 forty
 trial
-cards
 brass
 opera
 chose
@@ -458,10 +457,8 @@ owner
 vapor
 mouse
 tough
-wires
 meter
 tower
-finds
 inner
 stuck
 arrow
@@ -472,7 +469,6 @@ truly
 tense
 beans
 split
-rises
 weigh
 hotel
 stems
@@ -481,13 +477,11 @@ swung
 grade
 digit
 badly
-boots
 pilot
 swept
 lucky
 prize
 stove
-tubes
 wound
 steep
 slide
@@ -1548,7 +1542,6 @@ witty
 mossy
 psalm
 scuba
-tours
 polka
 milky
 gaudy
