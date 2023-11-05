@@ -1,5 +1,6 @@
-#
-# tic tac toe
+# Joe Griffin
+# Tic_Tac_Toe_Joe_Griffin
+# This program implements a version of tic tac toe as well as allows the user to run a number of random test games
 #
 
 import random
@@ -134,7 +135,6 @@ class TicTacToe(Game):
             while (not game_won):
                 rand_x = random.randint(0,self.size)
                 rand_y = random.randint(0,self.size)
-                print("player:",self.current_player,"move:",(rand_x,rand_y))
                 if (self.legal_move(rand_x, rand_y)):
                     self.make_move(rand_x, rand_y)
                 result = self.game_over()
@@ -224,13 +224,96 @@ class TicTacToe(Game):
         return result
 
 class TicTacToeTwo(TicTacToe):
-    def __init__(self):
-            pass
+    def __init__(self,size,num_consecutive):
+        super().__init__(size)
+        try:
+            self.num_consecutive = int(num_consecutive)
+        except:
+            print("Illegal size entered, setting size to 3")
+            self.num_consecutive = 3
+            
+        if (self.num_consecutive < 3) or (self.num_consecutive > self.size):
+            print("Illegal size entered, setting size to 3")
+            self.num_consecutive = 3
+    
+    def game_over(self):
+        i=0
+        j=0
+        counter=0
+        for i in range(self.size):
+            counter=1
+            for j in range(self.size-1):
+                if (self.board[i][j] != self.board[i][j+1]):
+                    counter=1
+                else:
+                    counter+=1
+                if (counter == self.num_consecutive):
+                    return self.board[i][j]
+        
+        i=0
+        j=0
+        for j in range(self.size):
+            counter=1
+            for i in range(self.size-1):
+                if (self.board[i][j] != self.board[i+1][j]):
+                    counter=1
+                else:
+                    counter+=1
+                if (counter == self.num_consecutive):
+                    return self.board[i][j]
+        i=0
+        j=0
+        counter = 1
+        for i in range(self.size-1):
+            if (self.board[i][i] != self.board[i+1][i+1]):
+                counter=1
+            else:
+                counter+=1
+            if (counter == self.num_consecutive):
+                    return self.board[i][i]
+        i=0
+        j=0
+        counter = 1
+        for i in range(self.size-1):
+            if (self.board[i][self.size-i-1] != self.board[i+1][self.size-i-2]):
+                counter=1
+            else:
+                counter+=1
+            if (counter == self.num_consecutive):
+                return self.board[i][self.size-1-i]
+            
+        return "No winner!";
 
 def main():
-    pass
+    print("Welcome to Tic Tac Toe!")
+    print("We will be demoing two games, regular Tic Tac Toe, and a condensed version!")
+    print("The condensed version will allow you to win in runs of 2-n, where n is the size of the board!")
+    
+    game_one = TicTacToe(4)
+    print("First we will validate the make move method and toString. Then we will call the play game and random play methods")
+    print(game_one)
+    game_one.make_move(0,0)
+    game_one.make_move(1,2)
+    game_one.make_move(3,3)
+    print(game_one)
+    print("We will now reset the board and play the game once via user input")
+    game_one.reset_game()
+    
+    #game_one.play_game()
+    #print("***************************\n********************\n")
+    #print(game_one)
+    
+    print("Now to play random games!")
+    game_one.random_play_game(200)
+    
+    game_two = TicTacToeTwo(4,3)
+    #game_two.play_game()
+    game_two.random_play_game(200)
+    print(game_one)
+    print(game_two)
+    
 
 if __name__ == "__main__":
-    tictactoe = TicTacToe(3)
-    tictactoe.random_play_game(9)
+    #tictactoe = TicTacToe(3)
+    #tictactoe.random_play_game(9)
     main()
