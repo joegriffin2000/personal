@@ -87,10 +87,10 @@ def pieceCheck():
             print(i)
     
 if __name__ == "__main__":
-    #main()
+    main()
     #copyCheck()
     #printingPlurals()
     #wordCount()
-    pieceCheck()
+    #pieceCheck()
     
     input()
