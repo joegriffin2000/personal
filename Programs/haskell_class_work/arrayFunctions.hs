@@ -47,9 +47,9 @@ test = [(-2), 1, 3, 5, 0, (-9), 5, 7, (-7), 0, 14]
 
 main = do
   print("In this program we will perform a variety of array functions!")
-  print(quicksort x)
-  print(quicksort y)
-  --print(addArrays x y)
+  --print(quicksort x)
+  --print(quicksort y)
+  print(addArrays x y)
   --print(addArrays2 x y)
   --print(compareArrays x y)
   --print(compareArrays x z)
