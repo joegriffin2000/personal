@@ -1,6 +1,6 @@
 `/* Joe Griffin
  * 11/4/2023
- * aetg3.java
+ * aetg3_Joe_Griffin.java
  * This program implements the AETG algorithm for generating test suites.
  * This program will generate, for a user specified number of features and attributes (where each feature has x number of attributes)
  * a minimum number of test cases such that every combination of attributes between features can be tested at least once.
