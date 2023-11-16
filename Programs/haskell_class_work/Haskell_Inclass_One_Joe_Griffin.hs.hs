@@ -1,6 +1,6 @@
 {--
  Joe Griffin
- Haskell_Inclass_One.hs
+ Haskell_Inclass_One_Joe_Griffin.hs
  November 16, 2023
 --}
 
