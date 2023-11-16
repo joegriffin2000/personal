@@ -1,35 +1,66 @@
+{--
+ Joe Griffin
+ Haskell_Inclass_One.hs
+ November 16, 2023
+--}
+
 {- Function #1
    Take as input an array, and return the list as a set (i.e. every item only is present once)
    Note we are doing this without using the set datatype that is implemented in Haskell (if interested, further reading is here: https://hackage.haskell.org/package/containers-0.6.6/docs/Data-Set.html)
 -}
-
---arrayToSet :: Eq a => [a] -> [a] -> [a]
-
-
+arrayToSet :: [Int] -> [Int]
+arrayToSet [] = []
+arrayToSet (head:tail) 
+ | elem head tail = (arrayToSet tail)
+ | otherwise = head : (arrayToSet tail)
 
 {- Function #2
    Take two arrays as input, convert them to sets, and then perform set union (find all unique items within both sets)
 -}
---setUnion :: Eq a => [a] -> [a] -> [a]
+setUnion :: [Int] -> [Int] -> [Int]
+setUnion arr1 arr2  = unionActual (arrayToSet arr1) (arrayToSet arr2) 
 
+unionActual :: [Int] -> [Int] -> [Int]
+unionActual arr1 []          = arr1
+unionActual [] arr2          = arr2
+unionActual arr1 (head2:tail2) 
+ | elem head2 arr1 = (unionActual arr1 tail2)
+ | otherwise = head2 : (unionActual arr1 tail2)
 
 {- Function #3
    Take two arrays as input, convert them to sets, and then perform set intersection (find all items found within both sets)
 -}
---setIntersection :: Eq a => [a] -> [a] -> [a]
+setIntersection :: [Int] -> [Int] -> [Int]
+setIntersection arr1 arr2  = intersectionActual (arrayToSet arr1) (arrayToSet arr2) 
 
-    
+intersectionActual :: [Int] -> [Int] -> [Int]
+intersectionActual arr1 []          = []
+intersectionActual [] arr2          = []
+intersectionActual arr1 (head2:tail2) 
+ | not (elem head2 arr1) = (intersectionActual arr1 tail2)
+ | otherwise = head2 : (intersectionActual arr1 tail2)
+
 {- Function #4 
    In this function we will take as input an array of number arrays, and first compute the averages. We will then find the maximal average.
    Hint: Use helper functions!
 -}
--- maxOfAverage :: (Fractional a, Ord a) => [[a]] -> a
+maxOfAverage :: (Integral a) => [[a]] -> a
+maxOfAverage [] = 0
+maxOfAverage x = maximum (avgArrays x)
+
+avgArrays :: (Integral a) => [[a]]  -> [a]
+avgArrays []          = []
+avgArrays (x:xs) = div (sumArray x) (fromIntegral (length x)) : (avgArrays xs)
+
+sumArray :: (Integral a) => [a] -> a
+sumArray [head] = head
+sumArray (head:tail) = head + (sumArray tail)
+
 
 
 showArray :: [[Double]] -> [Char] -> IO()
 showArray [] to_print = putStrLn to_print
 showArray (x:xs) to_print = showArray (xs) (to_print ++ (show x) ++ "\n")
-
 
 
 array1 = [1,2,3,4,5,6,7,8,9,10]
