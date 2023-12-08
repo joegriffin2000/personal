@@ -131,7 +131,6 @@ evalAll :: [Expr] -> [Int]
 evalAll [] = []
 evalAll (x : xs) = head (eval x) : evalAll xs
 
--- Replit AI also helped me to construct this defintion specifically
 -- Replit AI also helped me to construct this defintion specifically 
 mode :: Ord a => [a] -> a
 mode = head . maximumBy (compare `on` length) . group . sort
