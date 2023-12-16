@@ -7,7 +7,7 @@ import Control.Monad ( foldM )
 data Suit = Hearts | Diamonds | Clubs | Spades deriving (Show, Eq, Enum)
 data Rank = Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten | Jack | Queen | King | Ace deriving (Show, Eq, Enum)
 data Card = Card { suit :: Suit, rank :: Rank } deriving (Show, Eq)
-data Player = Player { playerName :: String, playerHand :: [Card], discardedHand :: [Card] } deriving (Show)
+data Player = Player { playerName :: String, playerHand :: [Card], discardedHand :: [Card] } deriving (Show, Eq)
 data Game = Game { players :: [Player], deck :: [Card] } deriving (Show)
 
 -- Generate a standard deck of cards
@@ -77,7 +77,7 @@ playPlayer (game, penalty) player = do
     putStrLn "Ask another player for a card (Rank):"
     rankInput <- getLine
     let rankAskedFor = read rankInput
-    case filter (\p -> not (null (playerHand p)) && any (\c -> rank c == rankAskedFor) (playerHand p) && p /= player) (players game) of
+    case filter (\p -> not (null (playerHand p)) && any (\c -> rank c == rankAskedFor) (playerHand p) && (p /= player)) (players game) of
         [] -> do
             putStrLn "Go Fish! Penalty!"
             let (newDeck, drawnCard) = drawCard (deck game)
