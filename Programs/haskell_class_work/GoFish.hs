@@ -1,20 +1,24 @@
+-- Joe Griffin
+-- Haskell Go-Fish Card Game
+-- Made with assistance from Open AI's GPT-3.5 model
+
 import System.Random
 import System.Random.Shuffle
 import Data.List
 import Control.Monad ( foldM )
 
--- Define data types for suits, ranks, cards, players, and the game
+-- Defining data types for suits, ranks, cards, players, and the game
 data Suit = Hearts | Diamonds | Clubs | Spades deriving (Show, Eq, Enum)
-data Rank = Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten | Jack | Queen | King | Ace deriving (Show, Eq, Enum)
+data Rank = Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten | Jack | Queen | King | Ace deriving (Show, Eq, Enum, Read)
 data Card = Card { suit :: Suit, rank :: Rank } deriving (Show, Eq)
 data Player = Player { playerName :: String, playerHand :: [Card], discardedHand :: [Card] } deriving (Show, Eq)
 data Game = Game { players :: [Player], deck :: [Card] } deriving (Show)
 
--- Generate a standard deck of cards
+-- Generate the standard deck of cards
 generateDeck :: [Card]
 generateDeck = [Card s r | s <- [Hearts .. Spades], r <- [Two .. Ace]]
 
--- Shuffle a deck using Fisher-Yates algorithm
+-- Shuffle the deck 
 shuffleDeck :: [Card] -> IO [Card]
 shuffleDeck deck = do
     gen <- getStdGen
@@ -34,6 +38,7 @@ chunkList _ [] = []
 chunkList n xs = take n xs : chunkList n (drop n xs)
 
 -- Player names for a two-player game
+-- *idk why it wants to do naming this way*
 playerNames :: [String]
 playerNames = ["Player 1", "Player 2"]
 
