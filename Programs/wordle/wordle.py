@@ -81,9 +81,9 @@ def wordCount():
     print(count)
 
 def pieceCheck():
-    c1 = 's'
+    s1 = 'ed'
     for i in ListOfWords:
-        if ((i.endswith(c1))):
+        if ((i.endswith(s1))):
             print(i)
     
 if __name__ == "__main__":
