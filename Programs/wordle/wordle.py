@@ -91,10 +91,10 @@ def pieceCheck():
 
 #Running everything from here. Don't uncomment functions unless debugging
 if __name__ == "__main__":
-    #main()
+    main()
     #copyCheck()
     #printingPlurals()
     #wordCount()
-    pieceCheck()
+    #pieceCheck()
     
     input()
