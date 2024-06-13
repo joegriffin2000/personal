@@ -50,7 +50,6 @@ paper
 young
 story
 point
-times
 heard
 whole
 white
@@ -135,10 +134,7 @@ value
 death
 maybe
 happy
-gives
-looks
 shape
-lives
 sense
 speak
 force
@@ -152,7 +148,6 @@ scale
 lower
 sleep
 wrong
-pages
 ships
 needs
 rocks
@@ -171,7 +166,6 @@ board
 cover
 equal
 stone
-waves
 guess
 dance
 spoke
@@ -189,7 +183,6 @@ meant
 drive
 spent
 local
-waxes
 knows
 train
 bread
@@ -202,8 +195,6 @@ quiet
 sugar
 steel
 forth
-rules
-notes
 peace
 month
 seeds
@@ -223,10 +214,8 @@ sheep
 nouns
 plain
 drink
-bones
 apart
 turns
-moves
 touch
 angle
 based
@@ -260,7 +249,6 @@ alive
 noise
 solid
 cloth
-types
 drawn
 worth
 truck
@@ -268,7 +256,6 @@ piano
 upper
 loved
 usual
-faces
 drove
 cabin
 boats
@@ -298,7 +285,6 @@ block
 grain
 smoke
 mixed
-games
 wagon
 sweet
 topic
@@ -352,7 +338,6 @@ ended
 chord
 false
 skill
-holes
 dozen
 brave
 apple
@@ -400,7 +385,6 @@ aloud
 dried
 motor
 pound
-knees
 refer
 fully
 chain
@@ -416,7 +400,6 @@ blind
 slept
 shade
 claim
-flies
 theme
 queen
 fifth
@@ -434,15 +417,12 @@ guard
 flesh
 owned
 trick
-yours
-sizes
 noted
 width
 burst
 route
 uncle
 royal
-kings
 forty
 trial
 brass
@@ -572,7 +552,6 @@ proof
 pause
 arose
 hated
-clues
 novel
 shame
 burnt
@@ -627,7 +606,6 @@ cargo
 crazy
 arise
 witch
-loves
 queer
 dwell
 merry
@@ -644,7 +622,6 @@ input
 fleet
 tooth
 cubic
-wives
 burns
 poets
 apron
@@ -722,7 +699,6 @@ decay
 urban
 grant
 minus
-tunes
 shaft
 bride
 wreck
@@ -876,7 +852,6 @@ scarf
 towel
 elect
 buggy
-files
 oxide
 pains
 photo
@@ -1326,7 +1301,6 @@ merge
 showy
 daddy
 roost
-vases
 swirl
 petty
 curry
@@ -1424,16 +1398,12 @@ gaudy
 shrug
 wilds
 laser
-truss
-hares
 creed
 lilac
 siren
 tarry
 bribe
 swine
-muted
-cures
 sinew
 boxed
 niche
@@ -1581,7 +1551,6 @@ cadet
 spawn
 guile
 noose
-mores
 girth
 slimy
 spasm
@@ -1683,7 +1652,6 @@ oaken
 glade
 visor
 hefty
-nines
 throb
 pecan
 butts
@@ -1701,7 +1669,6 @@ larks
 tangy
 wryly
 cheep
-rages
 evade
 freak
 vogue
@@ -2405,20 +2372,15 @@ quire
 thugs
 furor
 bloke
-runes
 bawdy
-cadre
 toxin
 annul
-egged
 anion
-nodes
 picky
 stein
 jello
 audit
 echos
-fagot
 letup
 eyrie
 fount
@@ -2537,7 +2499,6 @@ islet
 joust
 motet
 viral
-nukes
 grads
 comfy
 voila
@@ -2577,11 +2538,7 @@ raspy
 unfed
 crick
 nappy
-vizor
-yipes
-rebus
 divot
-kiwis
 vetch
 squib
 sitar
@@ -2629,26 +2586,20 @@ fryer
 retch
 tenet
 whiny
-ogled
 rumen
 begot
-cruse
 riven
-sines
 sigma
 abase
 unset
 latin
 scion
 henna
-kraut
 lifer
 bebop
 gazer
 fanny
-gibes
 aural
-tempi
 hooch
 snuck
 emend
@@ -2657,8 +2608,6 @@ guava
 scarp
 liege
 sepia
-emcee
-prams
 poser
 verso
 hubba
@@ -2698,7 +2647,6 @@ unlit
 nervy
 femme
 biter
-saxes
 recap
 synch
 dicey
@@ -2744,7 +2692,6 @@ biped
 hocus
 hammy
 fixit
-tykes
 yucky
 hokey
 resew
@@ -2760,7 +2707,6 @@ dorky
 snits
 moxie
 nobby
-esses
 paned
 druid
 rehab
@@ -2771,10 +2717,7 @@ dorks
 eared
 anted
 elide
-fazes
-macaw
 scone
-drily
 hyper
 salsa
 mooch
@@ -2798,7 +2741,6 @@ fiats
 caulk
 cavil
 panty
-hones
 botch
 estop
 sully
@@ -2809,10 +2751,6 @@ raper
 pager
 fixer
 infix
-hicks
-tuxes
-plebe
-twits
 abash
 twixt
 wacko
@@ -2835,7 +2773,6 @@ shard
 matte
 droid
 mixup
-yikes
 clone
 macho
 biker
@@ -2921,7 +2858,6 @@ punky
 biome
 ginny
 unman
-vapes
 yolky
 momma
 unrig
@@ -2964,7 +2900,6 @@ redux
 smurf
 lossy
 hunky
-tikes
 snark
 corgi
 feral

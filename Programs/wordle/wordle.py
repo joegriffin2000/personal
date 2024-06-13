@@ -84,17 +84,17 @@ def wordCount():
 
 #finding all the words that have a certain ending (has been modified before for certain beginning of words too)
 def pieceCheck():
-    s1 = 'ed'
+    s1 = 'es'
     for i in ListOfWords:
         if ((i.endswith(s1))):
             print(i)
 
 #Running everything from here. Don't uncomment functions unless debugging
 if __name__ == "__main__":
-    main()
+    #main()
     #copyCheck()
     #printingPlurals()
     #wordCount()
-    #pieceCheck()
+    pieceCheck()
     
     input()
