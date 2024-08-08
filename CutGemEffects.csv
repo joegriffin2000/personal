@@ -1,0 +1,15 @@
+Gem ID,Gem,Effect 1 ,Effect 1 Description,Effect 1 Tier 1,Effect 1 Tier 2,Effect 1 Tier 3,Effect 1 Tier 4,Effect 2,Effect 2 Description,Effect 2 Tier 1,Effect 2 Tier 2,Effect 2 Tier 3,Effect 2 Tier 4
+1,Amber,Arboreal,Nature DMG Convert,20.00%,30.00%,40.00%,50.00%,Nature Ward,Nature DMG Absorb,2.00%,2.50%,3.00%,3.80%
+2,Aquamarine,Frozen,Ice DMG Convert,20.00%,30.00%,40.00%,50.00%,Ice Ward,Ice DMG Absorb,2.00%,2.50%,3.00%,3.80%
+3,Amethyst,Abyssal,Void DMG Convert,20.00%,30.00%,40.00%,50.00%,Abyssal Ward,Void DMG Absorb,2.50%,3.50%,5.00%,6.00%
+4,Carnelian,Taunting,More Threat,100.00%,200.00%,250.00%,300.00%,Calming,Less Threat,4.00%,6.00%,8.00%,10.00%
+5,Diamond,Rally,DMG and outgoing HEAL while at full health,6.00%,9.00%,12.00%,15.00%,Wilderness Ward,Physical DMG Absorb / Elemental DMG Absorb,0.75% / 0.25%,1.1% / 0.38%,1.5% / 0.5%,1.9% / 0.63%
+6,Emerald,Opportunist,DMG against targets below 30% health,8.00%,12.00%,16.00%,20.00%,Thrust Ward,Thrust DMG Absorb,2.00%,2.50%,3.00%,3.80%
+7,Jasper,Retaliate,DMG after recieving 3 hits,6.00%,9.00%,12.00%,15.00%,Strike Ward,Strike DMG Absorb,2.00%,2.50%,3.00%,3.80%
+8,Malachite,Cruel,DMG against CC'd targets,6.00%,8.00%,10.00%,12.00%,Spectral Ward,Elemental DMG Absorb / Physical DMG Absorb,0.75% / 0.25%,1.1% / 0.38%,1.5% / 0.5%,1.9% / 0.63%
+9,Moonstone,Exhilarate,DMG when player is below 30% health,12.00%,16.00%,20.00%,24.00%,Slash Ward,Slash DMG Absorb,2.00%,2.50%,3.00%,3.80%
+10,Onyx,Brash,DMG against targets with full health,15.00%,20.00%,25.00%,30.00%,Physical Ward,Physical DMG Absorb ,1.00%,1.50%,2.00%,2.50%
+11,Opal,Gambit,DMG while your stamina is not full,6.00%,9.00%,12.00%,15.00%,Elemental Ward,Elemental DMG Absorb,1.00%,1.50%,2.00%,2.50%
+12,Ruby,Ignited,Fire DMG Convert,20.00%,30.00%,40.00%,50.00%,Fire Ward,Fire DMG Absorb,2.00%,2.50%,3.00%,3.80%
+13,Sapphire,Empowered,Arcane DMG Convert,20.00%,30.00%,40.00%,50.00%,Arcane Ward,Arcane DMG Absorb,2.00%,2.50%,3.00%,3.80%
+14,Topaz,Electrified,Lightning DMG Convert,20.00%,30.00%,40.00%,50.00%,Lightning Ward,Lightning DMG Absorb,2.00%,2.50%,3.00%,3.80%
