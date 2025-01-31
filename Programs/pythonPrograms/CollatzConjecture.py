@@ -6,6 +6,7 @@
 # Created by Joseph Griffin
 # 
 
+lineBreak = "~"*20
 
 def main():
     grablist = []
@@ -17,16 +18,12 @@ def main():
         
         if userNum.isdigit():
             grablist.append(userNum)
-            if len(userNum) > spaceVal:
-                spaceVal = len(userNum) + 1
             userNum=""
         elif userNum == "y":
-            spacing = ""
-            print("~"*spaceVal)
+            print(lineBreak)
             for i in grablist:
-                spacing = (spaceVal-len(i))*" "
                 final = inputProcessing(i)
-                print("{0}:{1}".format(i + spacing, final))
+                print(f"[{i:^3}]: {str(final)}")
             break
         else:
             print("Invalid Input: Not a Number")
@@ -36,7 +33,7 @@ def inputProcessing(userInput):
     listOutput = list()
     userInput = float(userInput)
     
-    while (userInput != 1):
+    while (userInput > 1):
         if userInput % 2 == 0:
             userInput /= 2
         else:
