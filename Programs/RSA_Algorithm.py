@@ -68,6 +68,7 @@ if __name__ == "__main__":
     S_AC = [(i**Ae) % AN for i in S]            # encrypting the elements of the message signed with my privat key
     V = [(i**d) % N for i in S]                 # verifying the elements of the signed text into the original message using my public 
 
+    print("Problem 1.")
     print("Part 1.")
     print("For this Section, I listed out all the components of my public/private key as well as Alice's Public key")
     print(f"{"(prime 1)":^20}| {"p":^9}:{p:^10}")
