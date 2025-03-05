@@ -2,6 +2,8 @@
 # This script implements the functionality of the RSA encryption algorithm. 
 # by Joe Griffin 
 
+LB = "-"*100
+
 #Conversion functions for text-to-ascii & ascii-to-text respectively
 def asciiConvert(text):
     return [ord(i) for i in text]
@@ -77,6 +79,7 @@ if __name__ == "__main__":
     print(f"{"(private key)":^20}| {"(N,d)":^9}:{f"({N},{d})":^10}")
     print(f"{"(alice public key)":^20}| {"(AN,Ae)":^9}:{f"({AN},{Ae})":^10}")
     print()
+    print(LB)
     
     print("Part 2.")
     print("For this section I simply, took the plaintext of my name and encrypted it with Alice's public")
@@ -84,6 +87,7 @@ if __name__ == "__main__":
     print(f"{"(ascii value)":^30}| {"textASCII":^12}: {str(textASCII):>80}")
     print(f"{"(encrypted with alice public)":^30}| {"AC":^12}: {str(AC):>80}") 
     print()
+    print(LB)
 
     print("Part 3.")
     print("For this section, I signed the plaintext with my private key")
@@ -93,8 +97,10 @@ if __name__ == "__main__":
     print()
     print(f"{"(verified as text)":^30}| {"V":^12}: {str(textConvert(V)):>80}") 
     print()
+    print(LB)
 
     print("Part 4.")
+    print("For this section, I first encrypted the plaintext with alice's public key and then signed with my private key")
     print(f"{"(original text)":^30}| {"text":^12}: {text:>80}")
     print(f"{"(ascii value)":^30}| {"textASCII":^12}: {str(textASCII):>80}")
     print(f"{"(encrypted with alice public)":^30}| {"AC":^12}: {str(AC):>80}")
@@ -102,11 +108,14 @@ if __name__ == "__main__":
     print()
     print(f"{"(verified with my public)":^30}| {"AC_V":^12}: {str([(i**e) % N for i in AC_S]):>80}")
     print()
+    print(LB)
 
     print("Part 5.")
+    print("For this section, I first signed with my private key then used alice's public key for encryption")
     print(f"{"(original text)":^30}| {"text":^12}: {text:>80}")
     print(f"{"(ascii value)":^30}| {"textASCII":^12}: {str(textASCII):>80}")
     print(f"{"(signed ascii)":^30}| {"S":^12}: {str(S):>80}")
     print(f"{"(encrypted with alice public)":^30}| {"S_AC":^12}: {str(S_AC):>80}")
     print()
+    print(LB)
 
