@@ -50,6 +50,13 @@ def modInverse(e: int, phi: int) -> int:
     for d in range(2, phi):
         if (e * d) % phi == 1:
             return d
+        
+def operate(iter: list, exp: int, mod: int) -> list:
+    lst=[]
+    for i in iter:
+        lst.append((i**exp) % mod)
+    return lst
+
 
 if __name__ == "__main__":
     p,q = 7,19
@@ -64,11 +71,11 @@ if __name__ == "__main__":
     #text = input("Please Enter the Text to be Encrypted\n:").strip()
     textASCII = asciiConvert(text) #converting all characters into ascii and storing them in the textASCII as a list
 
-    S = [(i**e) % N for i in textASCII]         # signing the elements of textASCII using my private
-    AC = [(i**Ae) % AN for i in textASCII]      # encrypting the elements of textASCII using my private
-    AC_S = [(i**d) % N for i in AC]             # signing the elements of the message encrypted with alice's public key
-    S_AC = [(i**Ae) % AN for i in S]            # encrypting the elements of the message signed with my privat key
-    V = [(i**d) % N for i in S]                 # verifying the elements of the signed text into the original message using my public 
+    S = operate(textASCII,e,N)                  # signing the elements of textASCII using my private
+    AC = operate(textASCII,Ae,AN)               # encrypting the elements of textASCII using my private
+    AC_S = operate(AC,d,N)                      # signing the elements of the message encrypted with alice's public key
+    S_AC = operate(S,Ae,AN)                     # encrypting the elements of the message signed with my private key
+    V = operate(S,d,N)                          # verifying the elements of the signed text into the original message using my public 
 
     print("Problem 1.")
     print("Part 1.")
