@@ -1,4 +1,5 @@
 # defining functions for use during my Physics class
+# all code written by joegriffin2000
 import math
 
 PI = math.pi
