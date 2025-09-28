@@ -1,7 +1,10 @@
 #
-# This document is to allow users to provide a number and simulate the path for that number on the Collatz Conjecture
-# The Collatz Conjecture is otherwise known as "3n+1".
-# In order to understand more about the Collatz Conjecture I recommend looking it up online to understand how it works
+# This script is to allow users to provide a number and simulate the path for that number on the Collatz Conjecture
+# In order to understand more about the Collatz Conjecture I recommend looking it up online to understand how it works.
+# 
+# Essentially, the program is supposed to find the thread of numbers associated with a given number such that even numbers are to be halfed and 
+# odd numbers are to be multiplied by three and incremented by one (in that order). This provides a string of numbers where every result 
+# eventually ends with the thread: 4-2-1 due to what is known as the Collatz Conjecture
 #
 # Created by Joseph Griffin
 # 
